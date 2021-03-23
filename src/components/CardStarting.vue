@@ -18,18 +18,6 @@
                     <img src="@/assets/images/rocket.png" alt="rocket" class="flight-list__item-info-data-wrapper-img">
                 <span class="flight-list__item-info-data-wrapper-text">{{ card.rocket }}</span>
                 </div>
-                <!-- <div class="flight-list__item-info-data">
-                    <img src="@/assets/images/calendar.png" alt="calendar" class="flight-list__item-info-data-calendar-img">
-                    <span class="flight-list__item-info-data-calendar-text">{{ card.data.fullData }}</span>
-                </div>
-                <div class="flight-list__item-info-data-time">
-                <img src="@/assets/images/time.png" alt="time" class="flight-list__item-info-data-time-img">
-                <span class="flight-list__item-info-data-time-text">{{ card.data.time }}</span>
-            </div>
-            <div class="flight-list__item-info-data-rocket">
-                <img src="@/assets/images/rocket.png" alt="rocket" class="flight-list__item-info-data-rocket-img">
-                <span class="flight-list__item-info-data-rocket-text">{{ card.rocket }}</span>
-            </div> -->
             </div>
       </div>
   </div>
@@ -65,6 +53,7 @@ export default {
                 font-size: 72px;
             }
             &-data {
+                margin-top: 20px;
                 display: flex;
                 &-wrapper {
                     display: flex;
