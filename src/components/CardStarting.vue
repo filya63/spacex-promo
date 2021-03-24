@@ -42,6 +42,7 @@ export default {
         };
         &-img {
             display: block;
+            margin: 0 auto;
         }
         &-info {
             &-mission {
