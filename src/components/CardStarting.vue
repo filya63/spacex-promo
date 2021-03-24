@@ -43,6 +43,7 @@ export default {
         &-img {
             display: block;
             margin: 0 auto;
+            max-width: 90%;
         }
         &-info {
             &-mission {
@@ -52,6 +53,7 @@ export default {
             }
             &-title {
                 font-size: 72px;
+                margin: 10px 0;
             }
             &-data {
                 margin-top: 20px;
